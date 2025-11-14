@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Brayan Cadavid - Senior Angular Developer & Mid-level Node.js Engineer Portfolio">
+    <title>Brayan Cadavid | Senior Angular Developer</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <div class="nav-brand">BC</div>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#achievements" class="nav-link">Achievements</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#education" class="nav-link">Education</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-background"></div>
+        <div class="container">
+            <div class="hero-content fade-in">
+                <p class="hero-greeting">Hi, I'm</p>
+                <h1 class="hero-title">Brayan Cadavid</h1>
+                <h2 class="hero-subtitle">Senior Angular Developer | Mid-level Node.js Engineer</h2>
+                <p class="hero-location">📍 Bogota, Colombia</p>
+                <p class="hero-description">
+                    Crafting modern, performant web applications with Angular and Node.js.
+                    Expert in modernizing legacy systems and leveraging AI models to accelerate development workflows.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary">Get In Touch</a>
+                    <a href="#projects" class="btn btn-secondary">View My Work</a>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about section" id="about">
+        <div class="container">
+            <h2 class="section-title fade-in-up">About Me</h2>
+            <div class="about-content">
+                <div class="about-text fade-in-up">
+                    <p class="about-intro">
+                        I'm a <strong>Senior Angular Developer</strong> with extensive experience modernizing frontends,
+                        migrating legacy platforms, and building performant applications that deliver exceptional user experiences.
+                    </p>
+                    <p>
+                        As a <strong>Mid-level Node.js Engineer</strong>, I bring practical expertise in improving APIs,
+                        optimizing database performance, and deploying scalable applications on Linux and Google Cloud Platform.
+                    </p>
+                    <p>
+                        My approach combines technical excellence with problem-solving efficiency. I'm skilled in debugging,
+                        refactoring, web performance optimization, and designing clean architectures for scalable systems.
+                        I also leverage <strong>AI models extensively</strong> to enhance code quality, accelerate development,
+                        and solve complex programming challenges more efficiently.
+                    </p>
+                    <div class="about-info">
+                        <div class="info-item">
+                            <span class="info-label">Email:</span>
+                            <a href="mailto:brayan1cadavid@gmail.com">brayan1cadavid@gmail.com</a>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">Phone:</span>
+                            <a href="tel:+573248546163">(+57) 324 854 6163</a>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">Languages:</span>
+                            <span>Spanish (Native), English (B1)</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills section" id="skills">
+        <div class="container">
+            <h2 class="section-title fade-in-up">Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-card fade-in-up" data-level="senior">
+                    <div class="skill-icon">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M9.93 12.645h4.134L12 6.41zm2.07-4.235L14.234 12h-4.468L12 8.41zM12 2L3 6v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V6l-9-4z"/>
+                        </svg>
+                    </div>
+                    <h3>Angular</h3>
+                    <span class="skill-level senior">Senior Level</span>
+                    <p>TypeScript, RxJS, SCSS, State Management, Performance Optimization</p>
+                </div>
+
+                <div class="skill-card fade-in-up">
+                    <div class="skill-icon">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M12 2L2 7v10c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V7l-10-5z"/>
+                        </svg>
+                    </div>
+                    <h3>Node.js</h3>
+                    <span class="skill-level mid">Mid Level</span>
+                    <p>Express, RESTful APIs, API Optimization, Server-side Logic</p>
+                </div>
+
+                <div class="skill-card fade-in-up">
+                    <div class="skill-icon">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M4 6h16v2H4zm0 5h16v2H4zm0 5h16v2H4z"/>
+                        </svg>
+                    </div>
+                    <h3>Databases</h3>
+                    <span class="skill-level mid">Mid Level</span>
+                    <p>MongoDB, MySQL, Query Optimization, Data Modeling</p>
+                </div>
+
+                <div class="skill-card fade-in-up">
+                    <div class="skill-icon">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M13 3v6h8V3m-8 8v6h8v-6m-8 8v6h8v-6M3 11h8V3H3m8 8H3v8h8m-8 2h8v-8H3"/>
+                        </svg>
+                    </div>
+                    <h3>DevOps & Cloud</h3>
+                    <span class="skill-level">Proficient</span>
+                    <p>Docker, Linux, GCP, CI/CD Pipelines, Server Administration</p>
+                </div>
+
+                <div class="skill-card fade-in-up">
+                    <div class="skill-icon">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M12 2L2 19.5h20L12 2m0 5l6.5 11h-13L12 7z"/>
+                        </svg>
+                    </div>
+                    <h3>Performance</h3>
+                    <span class="skill-level">Expert</span>
+                    <p>Lazy Loading, Code Splitting, Caching, Bundle Optimization</p>
+                </div>
+
+                <div class="skill-card fade-in-up">
+                    <div class="skill-icon">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
+                        </svg>
+                    </div>
+                    <h3>AI-Enhanced Development</h3>
+                    <span class="skill-level">Expert</span>
+                    <p>Leveraging AI Models for Code Quality, Refactoring & Problem Solving</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Achievements Section -->
+    <section class="achievements section" id="achievements">
+        <div class="container">
+            <h2 class="section-title fade-in-up">Key Achievements</h2>
+            <div class="achievements-grid">
+                <div class="achievement-card fade-in-up">
+                    <div class="achievement-number">01</div>
+                    <h3>Legacy Platform Modernization</h3>
+                    <p>
+                        Migrated two production platforms from very old Angular versions to modern Angular,
+                        updating dependencies, fixing breaking changes, and improving performance without any downtime.
+                    </p>
+                </div>
+
+                <div class="achievement-card fade-in-up">
+                    <div class="achievement-number">02</div>
+                    <h3>API Performance Optimization</h3>
+                    <p>
+                        Refactored Node.js APIs to significantly improve response times and reduce server load
+                        using pagination, caching strategies, and cleaner controller logic.
+                    </p>
+                </div>
+
+                <div class="achievement-card fade-in-up">
+                    <div class="achievement-number">03</div>
+                    <h3>Docker Infrastructure</h3>
+                    <p>
+                        Implemented Docker-based environments that simplified deployments and eliminated
+                        configuration inconsistencies across development, staging, and production environments.
+                    </p>
+                </div>
+
+                <div class="achievement-card fade-in-up">
+                    <div class="achievement-number">04</div>
+                    <h3>Frontend Performance Enhancement</h3>
+                    <p>
+                        Improved Angular application performance with lazy loading, bundle optimization, and
+                        change detection tuning, resulting in smoother UI even on low-end devices.
+                    </p>
+                </div>
+
+                <div class="achievement-card fade-in-up">
+                    <div class="achievement-number">05</div>
+                    <h3>Cloud Infrastructure Management</h3>
+                    <p>
+                        Deployed and maintained applications on Google Cloud Platform using Linux servers,
+                        configuring SSL certificates, cloud storage, and monitoring tools for optimal reliability.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section class="experience section" id="experience">
+        <div class="container">
+            <h2 class="section-title fade-in-up">Work Experience</h2>
+            <div class="timeline">
+                <div class="timeline-item fade-in-up">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">2025 – Present</span>
+                        <h3>Software Engineer</h3>
+                        <h4>DCT Marketing Group</h4>
+                        <p>
+                            Working with Angular, Node.js, Express, and MongoDB to deliver robust web applications.
+                            Managing GCP server administration, leading platform modernizations, optimizing application
+                            performance, and implementing infrastructure improvements that enhance system reliability and scalability.
+                        </p>
+                        <div class="timeline-tags">
+                            <span>Angular</span>
+                            <span>Node.js</span>
+                            <span>MongoDB</span>
+                            <span>GCP</span>
+                            <span>Performance Optimization</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item fade-in-up">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">2022 – 2024</span>
+                        <h3>Frontend Developer</h3>
+                        <h4>PlatinumBPO</h4>
+                        <p>
+                            Developed and maintained applications using Angular and Node.js stack. Built CRM systems,
+                            created analytics dashboards with real-time data visualization, performed database optimizations,
+                            and implemented performance tuning strategies that improved user experience and system efficiency.
+                        </p>
+                        <div class="timeline-tags">
+                            <span>Angular</span>
+                            <span>Node.js</span>
+                            <span>CRM Development</span>
+                            <span>Analytics</span>
+                            <span>Database Optimization</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item fade-in-up">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">2021 – 2022</span>
+                        <h3>Frontend Developer</h3>
+                        <h4>Un Toque Digital</h4>
+                        <p>
+                            Built a comprehensive real estate platform using Angular, SCSS, Google Maps integration,
+                            and Chart.js for data visualization. Implemented UX improvements, conducted thorough testing,
+                            and ensured high-traffic stability for a production application serving thousands of users.
+                        </p>
+                        <div class="timeline-tags">
+                            <span>Angular</span>
+                            <span>SCSS</span>
+                            <span>Google Maps API</span>
+                            <span>Chart.js</span>
+                            <span>UX Design</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects section" id="projects">
+        <div class="container">
+            <h2 class="section-title fade-in-up">Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card fade-in-up">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <a href="https://spotify-music-dev.netlify.app" target="_blank" rel="noopener noreferrer" class="project-link">
+                                <svg viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M14,3V5H17.59L7.76,14.83L9.17,16.24L19,6.41V10H21V3M19,19H5V5H12V3H5C3.89,3 3,3.9 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V12H19V19Z" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Spotify Music App</h3>
+                        <p>
+                            A modern music streaming application built with Angular that integrates the Spotify API.
+                            Features include real-time search, playlist management, audio playback controls, and responsive
+                            design. Implemented advanced state management and optimized performance for smooth audio streaming.
+                        </p>
+                        <div class="project-tags">
+                            <span>Angular</span>
+                            <span>Spotify API</span>
+                            <span>TypeScript</span>
+                            <span>RxJS</span>
+                            <span>SCSS</span>
+                        </div>
+                        <a href="https://spotify-music-dev.netlify.app" target="_blank" rel="noopener noreferrer" class="project-btn">
+                            View Live Site →
+                        </a>
+                    </div>
+                </div>
+
+                <div class="project-card fade-in-up">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <a href="https://tucasapropia.com/" target="_blank" rel="noopener noreferrer" class="project-link">
+                                <svg viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M14,3V5H17.59L7.76,14.83L9.17,16.24L19,6.41V10H21V3M19,19H5V5H12V3H5C3.89,3 3,3.9 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V12H19V19Z" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>TuCasaPropia - Real Estate Platform</h3>
+                        <p>
+                            Comprehensive real estate platform featuring property listings, advanced search filters,
+                            Google Maps integration for location visualization, and interactive charts for market analytics.
+                            Built to handle high traffic with optimized performance and excellent user experience across all devices.
+                        </p>
+                        <div class="project-tags">
+                            <span>Angular</span>
+                            <span>Node.js</span>
+                            <span>Google Maps API</span>
+                            <span>Chart.js</span>
+                            <span>MongoDB</span>
+                        </div>
+                        <a href="https://tucasapropia.com/" target="_blank" rel="noopener noreferrer" class="project-btn">
+                            View Live Site →
+                        </a>
+                    </div>
+                </div>
+
+                <div class="project-card fade-in-up">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <span class="project-link">
+                                <svg viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M12,2C6.48,2 2,6.48 2,12C2,17.52 6.48,22 12,22C17.52,22 22,17.52 22,12C22,6.48 17.52,2 12,2M12,20C7.59,20 4,16.41 4,12C4,7.59 7.59,4 12,4C16.41,4 20,7.59 20,12C20,16.41 16.41,20 12,20M16.59,7.58L10,14.17L7.41,11.59L6,13L10,17L18,9L16.59,7.58Z" />
+                                </svg>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Enterprise CRM System</h3>
+                        <p>
+                            Full-stack CRM application for managing customer relationships, sales pipelines, and analytics.
+                            Implemented role-based access control, real-time notifications, dashboard with KPIs, and optimized
+                            database queries for handling large datasets efficiently.
+                        </p>
+                        <div class="project-tags">
+                            <span>Angular</span>
+                            <span>Node.js</span>
+                            <span>Express</span>
+                            <span>MySQL</span>
+                            <span>Docker</span>
+                        </div>
+                        <span class="project-btn disabled">
+                            Private Project
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section class="education section" id="education">
+        <div class="container">
+            <h2 class="section-title fade-in-up">Education</h2>
+            <div class="education-content fade-in-up">
+                <div class="education-card">
+                    <div class="education-icon">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M12,3L1,9L12,15L21,10.09V17H23V9M5,13.18V17.18L12,21L19,17.18V13.18L12,17L5,13.18Z" />
+                        </svg>
+                    </div>
+                    <div class="education-info">
+                        <h3>Software Engineering</h3>
+                        <h4>Politécnico Grancolombiano</h4>
+                        <span class="education-date">2024 – Present</span>
+                        <p>
+                            Currently pursuing a degree in Software Engineering with focus on advanced programming paradigms,
+                            software architecture, database systems, and modern development methodologies. Combining academic
+                            knowledge with practical industry experience to build robust, scalable solutions.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact section" id="contact">
+        <div class="container">
+            <h2 class="section-title fade-in-up">Get In Touch</h2>
+            <p class="contact-intro fade-in-up">
+                I'm always open to discussing new projects, creative ideas, or opportunities to be part of your vision.
+                Feel free to reach out!
+            </p>
+            <div class="contact-content">
+                <div class="contact-info fade-in-up">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M20,8L12,13L4,8V6L12,11L20,6M20,4H4C2.89,4 2,4.89 2,6V18A2,2 0 0,0 4,20H20A2,2 0 0,0 22,18V6C22,4.89 21.1,4 20,4Z" />
+                            </svg>
+                        </div>
+                        <div>
+                            <h4>Email</h4>
+                            <a href="mailto:brayan1cadavid@gmail.com">brayan1cadavid@gmail.com</a>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M6.62,10.79C8.06,13.62 10.38,15.94 13.21,17.38L15.41,15.18C15.69,14.9 16.08,14.82 16.43,14.93C17.55,15.3 18.75,15.5 20,15.5A1,1 0 0,1 21,16.5V20A1,1 0 0,1 20,21A17,17 0 0,1 3,4A1,1 0 0,1 4,3H7.5A1,1 0 0,1 8.5,4C8.5,5.25 8.7,6.45 9.07,7.57C9.18,7.92 9.1,8.31 8.82,8.59L6.62,10.79Z" />
+                            </svg>
+                        </div>
+                        <div>
+                            <h4>Phone</h4>
+                            <a href="tel:+573248546163">(+57) 324 854 6163</a>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M12,11.5A2.5,2.5 0 0,1 9.5,9A2.5,2.5 0 0,1 12,6.5A2.5,2.5 0 0,1 14.5,9A2.5,2.5 0 0,1 12,11.5M12,2A7,7 0 0,0 5,9C5,14.25 12,22 12,22C12,22 19,14.25 19,9A7,7 0 0,0 12,2Z" />
+                            </svg>
+                        </div>
+                        <div>
+                            <h4>Location</h4>
+                            <p>Valledupar, Colombia</p>
+                        </div>
+                    </div>
+                </div>
+
+                <form class="contact-form fade-in-up" id="contactForm" novalidate>
+                    <div class="form-group">
+                        <label for="name">Name *</label>
+                        <input type="text" id="name" name="name" required>
+                        <span class="form-error" id="nameError"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email *</label>
+                        <input type="email" id="email" name="email" required>
+                        <span class="form-error" id="emailError"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="subject">Subject *</label>
+                        <input type="text" id="subject" name="subject" required>
+                        <span class="form-error" id="subjectError"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Message *</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                        <span class="form-error" id="messageError"></span>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+
+            <div class="form-success" id="formSuccess">
+                <svg viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M12,2A10,10 0 0,1 22,12A10,10 0 0,1 12,22A10,10 0 0,1 2,12A10,10 0 0,1 12,2M12,4A8,8 0 0,0 4,12A8,8 0 0,0 12,20A8,8 0 0,0 20,12A8,8 0 0,0 12,4M11,16.5L6.5,12L7.91,10.59L11,13.67L16.59,8.09L18,9.5L11,16.5Z" />
+                </svg>
+                <h3>Message Sent Successfully!</h3>
+                <p>Thank you for reaching out. I'll get back to you as soon as possible.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>Brayan Cadavid</h3>
+                    <p>Senior Angular Developer | Mid-level Node.js Engineer</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#skills">Skills</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#contact">Contact</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Brayan Cadavid. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
